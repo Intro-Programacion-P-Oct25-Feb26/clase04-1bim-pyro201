@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo1 {
+public class Ejemplo11 {
 
     public static void main(String[] args) {
         // Ingreso de valores por teclado
@@ -30,17 +30,12 @@ public class Ejemplo1 {
         nombreAsignatura1 = entrada.nextLine();// nerxtline me permite recibir una cadena
         System.out.println("Ingrese nota de asignatura 1");
         notaAsignatura1 = entrada.nextDouble();
-        System.out.println("Ingrese nombre de asignatura 2");
-        nombreAsignatura2 = entrada.nextLine();
-        System.out.println("Ingrese nota de asignatura 2");
-        notaAsignatura2 = entrada.nextDouble();
         
-        System.out.printf("Asignatura 1: %s\nNota 1:%.2f\nAsignatura 2:%s\n"
-                + "Nota 2: %.2f\n",
+        
+        System.out.printf("Asignatura 1: %s\nNota 1:%.2f",
                 nombreAsignatura1,
-                notaAsignatura1,
-                nombreAsignatura2,
-                notaAsignatura2);
+                notaAsignatura1);
+                
    
     }
     
