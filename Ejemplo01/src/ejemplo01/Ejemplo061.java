@@ -33,7 +33,9 @@ public class Ejemplo061 {
         // System.out.printf("%s\n\n%s\n\n%s\n", nombreEstudiante, 
         //        apellidoEstudiante, nacimiento)
         
-        System.out.printf("Nombre:\n\t%s\nApellido:\n\t%s\nEdad:\t%s\nDireccion:\n\n\t%s\n-------------------\nUniversidad:\t%s\nCiclo:\t%s\nAsignatura:\t%s\nParalelo:\n\t%s\n",
+        System.out.printf("Nombre:\n\t%s\nApellido:\n\t%s\nEdad:\t%s\nDireccion:"
+                + "\n\n\t%s\n-------------------\nUniversidad:\t%s\nCiclo:"
+                + "\t%s\nAsignatura:\t%s\nParalelo:\n\t%s\n",
                 nombre, apellido, edad, direccion, universidad, ciclo, asignatura, paralelo);
         
 
