@@ -31,8 +31,8 @@ public class Ejemplo11 {
         System.out.println("Ingrese nota de asignatura 1");
         notaAsignatura1 = entrada.nextDouble();
         
-        
-        System.out.printf("Asignatura 1: %s\nNota 1:%.2f",
+        // .2f signigica que recibe un decimal y el .2 significa que voy a presentar 2 decimales
+        System.out.printf("Asignatura 1: %s\nNota 1:%.1f",
                 nombreAsignatura1,
                 notaAsignatura1);
                 
