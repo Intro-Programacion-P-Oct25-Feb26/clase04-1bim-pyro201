@@ -35,15 +35,14 @@ public class Ejemplo0311 {
         System.out.println("Ingrese su ciclo academico en numero");
         ciclo = entrada.nextInt();
         
+        
+        System.out.println("Ingrese su direccion de domicilio");
         entrada.nextInt();
-         System.out.println("Ingrese su direccion de domicilio");
         direccion = entrada.nextLine();
         System.out.printf("Datos del estudiante\nNombre: %s\nApejllido: "
                 + "%s\nAño de Nacimiento: %d\nCiclo Academicos: "
                 + "%d\nDireccion: %s\n", 
-                nombre,
-                apellido,
-                nacimiento, ciclo, direccion);
+                nombre, apellido, nacimiento, ciclo, direccion);
         // cambiamos el %s por un %d ya que la variable es un entero
     }
 }
